@@ -1,0 +1,63 @@
+/* this is a comment in CSS */
+
+
+
+/*
+https://www.educative.io/answers/class-and-id-selectors-in-css
+*/
+
+html {
+    background-color: linen;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto Oxygen, 
+        Ubuntu, Cantarell, 'Open sans',Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 97%;
+    background-color: white;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.james-photo{
+    height: 300px;
+}
+
+#greetings{
+    color: black;
+}
+
+.major-box{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.minor-box {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid black;
+    margin: 30px;
+    text-align: center;
+}
+
+.grid-split{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.box-0{
+    padding-right: 10px;
+}
+
+.intro{
+    text-align: center;
+}
